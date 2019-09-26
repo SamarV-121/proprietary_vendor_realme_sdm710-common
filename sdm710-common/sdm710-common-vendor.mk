@@ -68,11 +68,16 @@ PRODUCT_COPY_FILES += \
     vendor/realme/sdm710-common/proprietary/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:system/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar \
     vendor/realme/sdm710-common/proprietary/framework/vendor.qti.ims.callinfo-V1.0-java.jar:system/framework/vendor.qti.ims.callinfo-V1.0-java.jar \
     vendor/realme/sdm710-common/proprietary/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar:system/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar \
+    vendor/realme/sdm710-common/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/realme/sdm710-common/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/realme/sdm710-common/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
     vendor/realme/sdm710-common/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
     vendor/realme/sdm710-common/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
     vendor/realme/sdm710-common/proprietary/lib/libdisplayconfig.so:system/lib/libdisplayconfig.so \
+    vendor/realme/sdm710-common/proprietary/lib/libdpmctmgr.so:system/lib/libdpmctmgr.so \
+    vendor/realme/sdm710-common/proprietary/lib/libdpmfdmgr.so:system/lib/libdpmfdmgr.so \
+    vendor/realme/sdm710-common/proprietary/lib/libdpmframework.so:system/lib/libdpmframework.so \
+    vendor/realme/sdm710-common/proprietary/lib/libdpmtcm.so:system/lib/libdpmtcm.so \
     vendor/realme/sdm710-common/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/realme/sdm710-common/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/realme/sdm710-common/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
@@ -126,6 +131,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     QtiTelephonyService \
+    SoterService \
     datastatusnotification \
     embms \
     imssettings \
