@@ -17,7 +17,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),sdm710-common)
+ifeq ($(TARGET_DEVICE),RMX1851 RMX1901)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := QtiTelephonyService
