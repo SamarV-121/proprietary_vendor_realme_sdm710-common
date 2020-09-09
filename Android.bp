@@ -220,6 +220,18 @@ android_app_import {
 }
 
 dex_import {
+	name: "QPerformance",
+	owner: "realme",
+	jars: ["proprietary/framework/QPerformance.jar"],
+}
+
+dex_import {
+	name: "UxPerformance",
+	owner: "realme",
+	jars: ["proprietary/framework/UxPerformance.jar"],
+}
+
+dex_import {
 	name: "WfdCommon",
 	owner: "realme",
 	jars: ["proprietary/framework/WfdCommon.jar"],
